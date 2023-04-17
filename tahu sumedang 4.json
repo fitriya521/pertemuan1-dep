@@ -1,0 +1,169 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! TahuBot di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Saya TahuBot, salam kenal ya! Mau tau tentang kota Sumedang, kan?",
+        "Helo! Ini TahuBot. Lagi kepo tentang Sumedang ya?"
+      ]
+    },
+    {
+      "tag": "Tahubot",
+      "patterns": [
+        "Apa itu TahuBot?",
+        "Siapa TahuBot?"
+      ],
+      "responses": [
+        "TahuBot adalah aplikasi chatbot yang memberikan kamu informasi tentang Kota Sumedang. Dimulai dari tempat wisata, sejarah, kesenian, serta makanan khas!",
+        "Tahu Bot itu adalah teman informasi kamu tentang Kota Sumedang!"
+      ]
+    },
+    {
+      "tag": "pencipta_TahuBot",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "Tahu, yang buat kamu siapa sih?",
+        "Siapa penciptamu, Tahu?"
+      ],
+      "responses": [
+        "TahuBot diciptakan oleh mahasiswi dari program studi independen Orbit Kampus Merdeka yang memiliki ide kreatif dan semangat yang luar biasa walaupun banyak rintangan dan drama tapi dia berhasil menciptakan saya saat ini",
+        "Pembuat TahuBot dari kalangan  mahasiswi yang berasal dari Sumedang lho!",
+        "Penciptaku berasal dari seorang mahasiswi yang kreatif, sehingga saya bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "penjelasan_Sumedang",
+      "patterns": [
+        "Sumedang adalah?",
+        "Dimana kota Sumedang?"
+      ],
+      "responses": [
+        "Kota Sumedang adalah sebuah kabupaten di Provinsi Jawa Barat, Indonesia yang letaknya 45 km timur laut dari dari kota Bandung.",
+        "Kota Sumedang terletak di provinsi jawa barat letaknya sekitar 45 km timur laut dari Kota Bandung. Kabupaten ini berbatasan dengan Kabupaten Indramayu di utara, Kabupaten Majalengka di timur, Kabupaten Garut di selatan, serta Kabupaten Subang, Bandung, dan Bandung Barat di barat. "
+      ]
+    },
+    {
+      "tag": "Sejarah_kota_Sumedang",
+      "patterns": [
+        "Bagaimana Sejarah kota Sumedang?"
+      ],
+      "responses": [
+        "Berdasarka catatan sejarah, di wilayah Sumedang dahulu berdiri sebuah kerajaan bernama Kerajaan Tembong Agung. Kerajaan Tembong Agung ini dipimpin oleh Prabu Galuh Hadji Adji Putih atau yang juga dikenal dengan nama Adji Purwa Sumedang. Nama Kerajaan Tembong Agung kemudian diubah menjadi Kerajaan Sumedang Larang pada masa pemerintahan Prabu Tadjimalela. Kerajaan Sumedang Larang ini mencapai puncak kejayaan saat dipimpin oleh Pangeran Angka Widjaya atau Prabu Geusan Ulun. Secara sistem pemerintahan, Prabu Geusan Ulun mulai menerapkan sistem pemerintahan kabupaten di Sumedang Larang. Penobatan Prabu Geusan Ulun sebagai pemimpin Sumedang Larang dilakukan oleh Prabu Siliwangi pada tanggal 22 April 1578. Peristiwa penobatan Prabu Geusan Ulun dianggap sebagai tonggak baru Sumedang Larang yang memiliki otoritas penuh. Oleh karena itu, tanggal 22 April hingga kini ditetapkan sebagai Hari Jadi Kabupaten Sumedang. Wilayah kekuasaan Sumedang Larang pada masa Prabu Geusan Ulun ini sangat luas, yaitu mencapai Samudera Hindia di selatan, Laut Jawa di utara. Kekuasaan juga membentang hingga Cisadane di barat, serta Kali Brebes di wilayah timur. Pada perkembangannya, Sumedang Larang sempat menjadi negara vasal atau negara bagian Kesultanan Cirebon hingga kemudian Kesultanan Mataram. Wilayah Sumedang kemudian diserahkan kepada VOC melalui konsesi yang disepakati antara Pakubuwana I dari Mataram Kartasura dengan perusahaan Belanda tersebut."
+      ]
+    },
+    {
+      "tag": "Asal_Usul_Nama_Sumedang",
+      "patterns": [
+        "Bagaimana Asal usul nama kota Sumedang?"
+      ],
+      "responses": [
+        "Nama Sumedang sendiri diambil dari nama kerajaan yang ada di kabupaten ini pada masa lampau yaitu Kerajaan Sumedang Larang. Sebagaimana diungkap sebelumnya, Sumedang Larang merupakan nama pengganti kerajaan yang ada sebelumnya yaitu Kerajaan Tembong Agung. Pada perkembangannya, nama untuk wilayah Sumedang ini mengalami beberapa kali perubahan. Setelah Tembong Agung, nama daerah ini diubah menjadi Himbar Buana oleh Prabu Tajimalela. Saat itu, sang prabu bersabda “Insun medal Insun madangan”, yang artinya aku dilahirkan dan aku menerangi. Konon asal-usul nama Sumedang diambil dari perkataan Prabu Tajimalela itu yaitu pada bagian Insun Madangan. Masyarakat sekitar mengalami perubahan pengucapan terhadap kata Insun Madangan itu menjadi Sun Madang, yang perkembangan berikutnya menjadi Sumedang. Namun ada pula yang menyebutkan bahwa nama Sumedang berasal dari katan Insun Medal yang mengalami perubahan pengucapan. Hingga saat ini, kata Insun Medal masih tertulis di logo Kabupaten Sumedang atau yang disebut dengan Logo Insun Medal."
+      ]
+    },
+    {
+      "tag": "makanan_khas_Sumedang",
+      "patterns": [
+        "Apa saja makanan khas Sumedang?"
+      ],
+      "responses": [
+        "Terdapat beberapa makanan khas yang berasal dari sumedang, diantaranya ada Tahu Sumedang, ubi cilembu, teng-teng serta kerecek"
+      ]
+    },
+    {
+      "tag": "Kota_Sumedang",
+      "patterns": [
+        "wisata sumedang",
+        "pembuatan surat kependudukan berbasis online di Sumedang",
+        "Fasilitas yang tersedia di kota sumedang"
+      ],
+      "responses": [
+        "Yuk, pilih di bawah ini:"
+      ]
+    },
+    {
+      "tag": "program_kampus_merdeka",
+      "patterns": [
+        "wisata sumedang",
+        "pembuatan surat kependudukan berbasis online di Sumedang"
+      ],
+      "responses": [
+        "Mau tau tentang apa nih?"
+      ]
+    },
+    {
+      "tag": "penjelasan_wisata_sumedang",
+      "patterns": [
+        "Apa saja wisata di kota sumedang?"
+      ],
+      "responses": [
+        "berikut beberapa rekomendasi tempat wisata yang bisa kamu coba di sumedang : jatigede, cikandung, cipanas, gunung kunci, batu dua, kampung toga, puncak damar."
+      ]
+    },
+    {
+      "tag": "pembuatan_surat_kependudukan_berbasis_online_di_sumedang",
+      "patterns": [
+        "bagaimana cara membuuat surat kependudukan online di sumedang?",
+        "bagaimana cara membuat ktp online di sumedang",
+        "bagaimana cara membuat akta kelahiran online di sumedang",
+        "bagaimana cara memebuat surat pindah online di sumedang?"
+      ],
+      "responses": [
+        "cara untuk membuat surat kependudukan online di sumedang bisa melalui website silasidakep.com dimanan nanti kita kan dituntun untuk membuat akun, mengisi formulir yang disediakan dan mengunggah beberapa dokumen yang dibutuhkan. setelah semuanya berhasil diunggah kita hanya tinggal menunggu berkas dikirimkan melalui pos oleh disdukcapil sumedang. Dan semua layanan ini gratis tanpa dipungut biaya sedikitpun."
+      ]
+    }
+  ]
+}
